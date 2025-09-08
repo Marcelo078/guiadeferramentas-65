@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
-    { href: "/ferramentas/calendario-2025", label: "Calendário 2025" },
+    { href: "/ferramentas/calendario", label: "Calendário Brasileiro" },
     { href: "/ferramentas/calculadora", label: "Calculadora Online" },
     { href: "/ferramentas/conversor", label: "Conversor de Unidades" },
     { href: "/reviews/ferramentas", label: "Reviews Ferramentas" },

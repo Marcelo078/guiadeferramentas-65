@@ -58,3 +58,6 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 Button.displayName = "Button"
 
 export { Button, buttonVariants }
+
+// Enhanced Button component for affiliate buttons
+export const EnhancedButton = Button;

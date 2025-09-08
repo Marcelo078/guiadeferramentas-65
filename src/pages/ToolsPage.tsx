@@ -15,12 +15,12 @@ import {
 const ToolsPage = () => {
   const tools = [
     {
-      title: "Calendário 2025",
+      title: "Calendário Brasileiro",
       description: "Calendário completo com feriados nacionais brasileiros. Navegue pelos meses e veja as datas importantes destacadas. Ideal para planejamento anual.",
       icon: Calendar,
-      href: "/ferramentas/calendario-2025",
+      href: "/ferramentas/calendario",
       color: "text-blue-600",
-      seoDescription: "Calendário 2025 com todos os feriados nacionais brasileiros. Ferramenta gratuita para planejamento anual e consulta de datas importantes."
+      seoDescription: "Calendário brasileiro com todos os feriados nacionais. Ferramenta gratuita para planejamento anual e consulta de datas importantes."
     },
     {
       title: "Calculadora Online",

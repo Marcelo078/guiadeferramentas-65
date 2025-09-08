@@ -21,10 +21,10 @@ import {
 const Home = () => {
   const tools = [
     {
-      title: "Calendário 2025",
+      title: "Calendário Brasileiro",
       description: "Calendário completo com feriados nacionais brasileiros",
       icon: Calendar,
-      href: "/ferramentas/calendario-2025",
+      href: "/ferramentas/calendario",
       color: "text-blue-600"
     },
     {
@@ -83,7 +83,7 @@ const Home = () => {
     },
     {
       title: "Notebooks",
-      description: "Reviews e comparativos dos melhores notebooks de 2025",
+      description: "Reviews e comparativos dos melhores notebooks do mercado",
       icon: Laptop,
       href: "/notebooks",
       products: "100+ modelos analisados",
@@ -97,7 +97,7 @@ const Home = () => {
       <section className="relative bg-gradient-hero text-primary-foreground py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            Portal Brasileiro 2025
+            Portal Brasileiro
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-3xl mx-auto">
             Ferramentas online gratuitas, reviews detalhados e guias de compra. 

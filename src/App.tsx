@@ -9,9 +9,12 @@ import Home from "./pages/Home";
 import Parceiros from "./pages/Parceiros";
 import ToolsPage from "./pages/ToolsPage";
 import Calculator from "./components/tools/Calculator";
-import Calendar2025 from "./components/tools/Calendar2025";
+import Calendar from "./components/tools/Calendar";
 import UnitConverter from "./components/tools/UnitConverter";
+import Reviews from "./pages/Reviews";
+import Notebooks from "./pages/Notebooks";
 import NotFound from "./pages/NotFound";
+import FerramentasEletricas from "./pages/reviews/FerramentasEletricas";
 
 const queryClient = new QueryClient();
 
@@ -29,9 +32,11 @@ const App = () => (
               <Route path="/parceiros" element={<Parceiros />} />
               <Route path="/ferramentas" element={<ToolsPage />} />
               <Route path="/ferramentas/calculadora" element={<Calculator />} />
-              <Route path="/ferramentas/calendario-2025" element={<Calendar2025 />} />
+              <Route path="/ferramentas/calendario" element={<Calendar />} />
               <Route path="/ferramentas/conversor" element={<UnitConverter />} />
-              {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+              <Route path="/reviews" element={<Reviews />} />
+              <Route path="/reviews/ferramentas-eletricas" element={<FerramentasEletricas />} />
+              <Route path="/notebooks" element={<Notebooks />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
