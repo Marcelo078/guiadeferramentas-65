@@ -11,10 +11,18 @@ import ToolsPage from "./pages/ToolsPage";
 import Calculator from "./components/tools/Calculator";
 import Calendar from "./components/tools/Calendar";
 import UnitConverter from "./components/tools/UnitConverter";
+import Sorteador from "./components/tools/Sorteador";
+import Cronometro from "./components/tools/Cronometro";
+import RelogioMundial from "./components/tools/RelogioMundial";
 import Reviews from "./pages/Reviews";
 import Notebooks from "./pages/Notebooks";
 import NotFound from "./pages/NotFound";
 import FerramentasEletricas from "./pages/reviews/FerramentasEletricas";
+import Eletrodomesticos from "./pages/reviews/Eletrodomesticos";
+import FerramentasManuais from "./pages/reviews/FerramentasManuais";
+import NotebooksEstudantes from "./pages/notebooks/Estudantes";
+import NotebooksGamer from "./pages/notebooks/Gamer";
+import NotebooksProfissionais from "./pages/notebooks/Profissionais";
 
 const queryClient = new QueryClient();
 
